@@ -1,0 +1,30 @@
+<%- include("partials/header"); -%>
+<div class="mainCompose">
+  <h1 class="publish"><%= pubTitle %></h1>
+  <form action="/Compose" method="post">
+    <label for="title">Title</label>
+    <div class="form-group">
+      <input
+        id="Title"
+        type="text"
+        class="form-control"
+        name="postTitle"
+        autocomplete="off"
+        placeholder="YOUR"
+      />
+      <label for="Posting">Post</label>
+
+      <textarea
+        class="form-control"
+        id="Posting"
+        name="postBody"
+        cols="100"
+        rows="10"
+      ></textarea>
+    </div>
+    <button type="submit" name="blog" class="btn btn-outline-success">
+      Publish
+    </button>
+  </form>
+</div>
+</body>

@@ -1,0 +1,166 @@
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 10px;
+  letter-spacing: 5px;
+}
+.nameT {
+  font-family: "Dosis", sans-serif;
+  color: #614124;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 2%;
+}
+.container {
+  padding-top: 20px;
+  width: auto;
+  background-color: #bdd2b6;
+}
+.navbar-nav li a {
+  color: black !important;
+  font-family: "Amatic SC", cursive;
+}
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+.seperatePage {
+  font-size: 20px;
+  padding-right: 30px;
+}
+.navbar-header {
+  padding-left: 1%;
+  font-family: "Amatic SC", cursive;
+}
+.daily {
+  font-size: 25px;
+  padding-left: 30px;
+
+  color: black !important;
+}
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #1abc9c;
+}
+.center {
+  text-align: center;
+}
+.publish {
+  font-family: "Amatic SC", cursive;
+  margin-top: 6%;
+  margin-bottom: 3%;
+  text-align: center;
+  font-size: 80px;
+  color: #614124;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+}
+
+.footer p {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #fff;
+}
+#Posting {
+  width: 75%;
+  margin-left: 15.5%;
+  margin-bottom: 1%;
+  border-radius: 10px;
+}
+#Title {
+  margin-bottom: 3%;
+  width: 30%;
+  text-align: center;
+  background-color: #dfe8cc;
+
+  border-color: #5c3d2e;
+  margin-left: 35%;
+}
+.main {
+  background-color: #ffdeb4;
+}
+.mainCompose {
+  background-color: #ffdeb4;
+  height: auto;
+}
+.cp {
+  margin-right: 40px;
+  color: black;
+}
+.np {
+  margin-right: 40px;
+}
+.header {
+  margin-top: 6%;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+}
+.head {
+  font-size: 100px;
+}
+a {
+  color: green;
+}
+a:hover {
+  color: #61481c;
+  text-decoration: none;
+}
+.headerText {
+  margin-top: 3%;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-family: "Dosis", sans-serif;
+  font-size: 25px;
+  color: #614124;
+}
+.but {
+  margin-left: 45%;
+}
+.cent {
+  text-align: center;
+}
+.submit {
+  margin-top: 2%;
+  width: 10%;
+  border: none;
+  background-color: #1a4d2e;
+}
+.lottaPost {
+  font-family: "Amatic SC", cursive;
+  font-size: 100px;
+}
+.realPost {
+  margin-left: 4%;
+  font-family: "Handlee", cursive;
+  font-size: 40px;
+  color: #184d47;
+}
+.realContent {
+  margin-left: 6%;
+  font-family: "Literata", serif;
+  font-size: 17px;
+}
+.space {
+  padding-bottom: 1.5%;
+}
+.linkD {
+  margin-left: 6%;
+}
+.dTitle {
+  color: black;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body class="main">
+    <%-include("partials/header"); -%>
+    <h1 class="publish"><%= pTitle %></h1>
+
+    <% posts.forEach(function(post){ %>
+    <h1 class= "realPost"><%= post.title %></h1>
+    <% if (post.blog.length > 100){ %>
+      <p class = "realContent"><%= post.blog.substring(1,150)+"..." %></p>
+      <a class = "linkD" href="/<%= post.title %>"> Read More</a>
+    <%}; %>
+    <% if (post.blog.length <= 100){ %>
+      <p class = "realContent"><%= post.blog.substring(1,150) %></p>
+    <%}; %>
+    <div class = "space"></div>
+    <% });%> 
+  
+</html>
